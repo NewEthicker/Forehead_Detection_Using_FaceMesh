@@ -7,7 +7,7 @@ mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh()
 
 # Set up the video capture device
-url = "https://10.130.20.75:8080/video"
+url = "https://10.130.20.75:8080/video"  # change it from your ip of webcame, dont have app: https://play.google.com/store/apps/details?id=com.pas.webcam
 cap = cv2.VideoCapture(url)
 
 # Set the center point for the scope
